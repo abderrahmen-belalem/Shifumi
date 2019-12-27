@@ -57,6 +57,7 @@ public class Shifumi {
                     break;
                 default:
                     System.out.println("Enter a valid a number : ");
+                    gameInit();
             }
         }
     }
@@ -67,8 +68,7 @@ public class Shifumi {
         System.out.println("(1) paper");
         System.out.println("(2) scissors");
         System.out.println("(3) rock");
-        for (int i = 0; i <3 ; i++) {
             gameInit();
-        }
+        
     }
 }
