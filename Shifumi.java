@@ -42,7 +42,7 @@ public class Shifumi {
                     }
                     break;
                 case 2:
-                    if (secondChoice == 1) {
+                    if (secondChoice == 3) {
                         System.out.println("AI won");
                     } else {
                         System.out.println("You won");
